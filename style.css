@@ -1,0 +1,267 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.navigation{
+    display:flex;
+    justify-content: space-between;
+}
+.navigation{
+    color: white;
+    background-color:rgba(0,0,0,0.4);
+    padding: 5px;
+}
+.domain{
+    font-family:"Bebas Neue", Sans-serif;
+    font-size: 40px;
+}
+.navigation nav a{
+ text-decoration: none;
+ color:white;
+}
+nav a{
+    padding-left: 20px;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+}
+.container img{
+    background-size: cover;
+}
+header{
+    background-image: url('cah.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 843px 0px 341px 0px rgb(0 0 0 / 0.7);
+}
+.txt{
+    color: white;
+    padding-left: 120px;
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.txt h2{
+    font-family:"Bebas Neue", Sans-serif;
+    font-size: 60px;
+}
+.up{
+    margin-bottom: 0px;
+}
+.down{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.txt p{
+    margin-top:7px;
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+}
+.line{   
+    margin-left:120px;
+    width: 40%;
+    height: 0px;
+    border: 0.8px solid rgba(255, 255, 255, 0.4);
+    margin-top: 90px;
+}
+.logo{
+    margin-top: 0px;
+    display: flex;
+    gap: 20px;
+    padding-left: 120px;
+    padding-bottom: 100px;
+}
+
+.logo img{
+    height: 20px;
+    width: 20px;
+}
+.container{
+    margin-top: 150px;
+    margin-left: 160px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    text-align: center;
+    }
+
+.container img{
+    height: 107.88px;
+    width: 107.88px ;
+}
+.item{
+    justify-items: center;
+    padding: 10px;
+    width: 280px;
+}
+.item h3{
+    font-family:"Bebas Neue", Sans-serif;
+    font-size: 22px;
+}
+.item p{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+}
+.web,.marketing{
+    border-right: 1px solid rgba(0,0,0, 0.3);
+}
+section{
+    margin-top: 80px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    padding: 0 150px ;
+    }
+
+.cards img{
+    width: 270px;
+}
+.background{
+    background-color:#140748;
+    height: 400px;
+    margin-top:-100px;
+    display: flex;
+    justify-items: center;
+     align-items: center;
+    color: white;
+}
+.background h1{
+    font-family:"Bebas Neue", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+.background p{
+    margin-top: 0%;
+    font-family: Roboto,sans-serif;
+    font-size: 22px;
+}
+.text{
+    margin-left: 16%;
+    width: 50%;
+}
+.logo img{
+    width: 120px;
+    height: 120px;
+    padding-top: 120px;
+}
+.first{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.first img{
+width:50%;
+}
+.right{
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-items: center;
+justify-content: center;
+padding: 0 70px;
+}
+.right h2{
+    font-family:"Bebas Neue", Sans-serif;
+    font-size: 40px;
+    color: #140748
+} 
+.right ul{
+    list-style: none;
+    padding-left: 10px ;
+}
+.icon{
+    color: #140748  
+}
+.details{
+    display: flex;
+    height: 100%;
+    width:100%;
+    margin-top: 50px;
+}
+.scnd-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 168px;
+}
+
+.vr-line {
+    border-left: 2px dotted #ccc;
+    padding-left: 40px;
+}
+.vr-line::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 6px;
+  width: 2px;
+  border-left: 2px dotted #ccc;
+  z-index: 0;
+}
+.dot{
+  position: absolute;
+  left: -31px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  background-color: #5bc0eb;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px #5bc0eb;
+}
+
+.scnd-left .more-right {
+        padding-bottom: 6px;
+}
+
+.scnd-left h3,
+h4 {
+    text-transform: uppercase;
+    font-size: 34px;
+    color: #140748;
+    font-family: "Bebas Neue", Sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.scnd-left h4 {
+    font-size: 22px;
+}
+
+.more-right .date {
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.more-right h4,
+.date {
+    margin-bottom: -4px;
+}
+
+.more-right .content {
+    color: #666666;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+.details img{
+    padding-top:50px;
+    width:50%;
+    height: 80%;
+}
+.work{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 80px;
+}
+.work img{
+width:50%;
+}
