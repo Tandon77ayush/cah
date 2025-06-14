@@ -1,7 +1,7 @@
 body{
     margin:0px;
     padding:0px;
-}
+} 
 .navigation{
     display:flex;
     justify-content: space-between;
@@ -72,8 +72,8 @@ header{
 }
 
 .logo img{
-    height: 20px;
-    width: 20px;
+    height: 9px;
+    width: 9px;
 }
 .container{
     margin-top: 150px;
@@ -195,7 +195,7 @@ padding: 0 70px;
 }
 .vr-line::before{
   content: "";
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   bottom: 0;
   left: 6px;
@@ -264,4 +264,103 @@ h4 {
 }
 .work img{
 width:50%;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 130px 0px;
+    background-color:#FAFBFD;
+    margin-top: 120px;
+}
+.services p{
+    width: 840px;
+    height: 16px;
+    margin: 0px 0px 14px;
+    color: #282E37;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.services h2{
+    color: #140748;
+    font-family:"Bebas Neue", Sans-serif;
+    font-size: 40px;
+}
+.courses{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+}
+.courses img{
+    width: 260px;
+    padding-right: 30px;
+}
+.courses h3{
+    color: #140748;
+    font-size: 22px;
+    font-family:"Bebas Neue", Sans-serif;
+}
+
+ .container-2
+ {  margin-top:-40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    padding: 0px 236px;
+ }
+ .option
+ {
+    background-color: #FFFFFF;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    text-align-last: center;
+ }
+ .option h4 {  color: #140748;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+.picture{
+    margin-top: 100px;
+    height:800px;
+    background-image: url('groupimage.jpg');
+}
+.comment{
+    margin-top:-140px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 80px;
+}
+.designer{
+    height: 266px;
+    width: 360px;
+    background-color: #ede9e9;
+    color:#767373;
+    font-size:16px;
+    font-family:"Roboto", Sans-serif ;
+}
+.designer p{
+    margin-top: 40px;
+    padding-left: 40px;
+}
+.designer img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-left:40px;
+}
+.author{
+    display: flex;
+}
+.info{
+    display: flex;
+    flex-direction: column;
 }
