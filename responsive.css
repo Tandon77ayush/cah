@@ -1,0 +1,129 @@
+@media screen  and (max-width :991px){
+  nav{
+    display: none;
+  }  
+.domain{
+  display: none;
+}
+.navigation{
+  background-color: none;
+}
+.container{
+  grid-template-columns: auto;
+  margin-left: 0px;
+}
+.web,.marketing{
+    border-right: none;
+    border-bottom: 1px solid rgba(0,0,0, 0.3);
+}
+
+.cards img:nth-child(3),
+.cards img:nth-child(4){
+  display: none;
+}
+.comment{
+  margin-top: 0px;
+  grid-template-columns: auto;
+  width: 100%;
+}
+.designer{
+  width: 100%;
+}
+.icons {
+  margin-top: 0px;
+    flex-wrap: wrap;
+    padding-left: 0;  
+    justify-content: center; 
+  }
+
+  .logo1, .logo2, .logo3, .logo4 {
+    width: 45%;  
+    margin-top: 20px;
+    padding: 10px; 
+  }
+
+  .icons img {
+    width: 100%; 
+    height: auto;
+  }
+  
+  .first{
+    flex-direction: column;
+    align-items: center;
+  }
+  .first img{
+    width: 80%;
+  }
+  .right{
+    width: 100%;
+  }
+  .details{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .details img{
+    width: 80%;
+  }
+  .scnd-left{
+    width: 100%;
+    padding-left: 60px;
+  }
+  .vr-line{
+    border-left: none;
+  }
+  .vr-line::before{
+    border-left: none;
+  }
+ .work{
+    flex-direction: column;
+    align-items: center;
+  }
+  .work img{
+    width: 80%;
+  }
+  .courses{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .courses img{
+    padding-right: 0px;
+    width: 100%;
+    height: auto;
+  }
+  .courses > div {
+    flex: 0 0 calc(50% - 20px); 
+    box-sizing: border-box;
+}
+.container-2{
+  margin-top: 0px;
+  grid-template-columns: auto auto;
+  padding: 2px 4px 2px 4px;
+}
+.detail-colection-form{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    margin-bottom: 0%;
+  }
+  .form{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0px;
+    height: auto;
+  }
+.form form{
+  padding: 50px 50px 0px 50px;
+  margin: 0px;
+  width: 100%;
+  box-shadow: none;
+}
+.query{
+  padding:0px 50px 0px 50px;
+}
+
+#footer{
+  margin-top: 0%;
+}
+}
